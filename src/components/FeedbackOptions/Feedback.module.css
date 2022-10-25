@@ -1,0 +1,29 @@
+.feedback__controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.controls__item {
+    display: block;
+}
+
+button {
+    font-size: larger;
+    background-color: rgb(220, 216, 216);
+    color: black;
+    border-radius: 3px;
+    transition: .5s ease;
+
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid #e9eaed;
+    color: black;
+}
+
+button:active {
+    background-color: #a7c8cf;
+    transform: translateY(4px);
+}
